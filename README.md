@@ -59,35 +59,41 @@ AI-Career-Guidance-Copilot/
 ## ⚙️ Setup & Installation
 
 ### 1️⃣ Clone the repository
-
+```bash
 git clone https://github.com/DIXANTOFFICIAL1/AI-Career-Guidance-Copilot.git
 cd AI-Career-Guidance-Copilot
 
 2️⃣ Install dependencies
 pip install -r requirements.txt
-
 3️⃣ Configure Environment Variables
 Create a .env file in the root directory:
+
 GOOGLE_API_KEY=your_google_gemini_api_key_here
 ⚠️ Do NOT upload .env to GitHub.
 
 ▶️ Run the Application
 python app.py
-
 Open your browser and visit:
-http://127.0.0.1:5000
 
+http://127.0.0.1:5000
 🧪 Example Prompts
 “I am a 2nd year student confused between AI and web development”
+
 “I completed BCom and want to move into tech”
+
 “I am working in IT support for 2 years and feel stuck”
+
 “What skills should I learn to become a data analyst?”
+
 Each prompt generates different, context-aware responses.
 
 📈 Impact
 Helps users gain career clarity using AI
+
 Reduces confusion in early career decision-making
+
 Encourages skill development and lifelong learning
+
 Makes career guidance accessible and scalable
 
 🔒 Disclaimer
@@ -103,6 +109,12 @@ GitHub: https://github.com/DIXANTOFFICIAL1
 
 📚 References
 Google Gemini Generative AI Documentation
+
+IBM SkillsBuild Learning Resources
+
 Microsoft Copilot & AI Learning Modules
+
 Flask Official Documentation
+
 United Nations Sustainable Development Goals (SDGs)
+
