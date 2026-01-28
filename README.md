@@ -34,87 +34,106 @@ This project helps users gain career clarity, develop relevant skills, and acces
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
+```text
 AI-Career-Guidance-Copilot/
 │
 ├── app.py
 ├── requirements.txt
 ├── runtime.txt
 ├── .gitignore
-├── .env (not committed)
+├── .env                  # Not committed (stores API key)
 │
 ├── services/
-│ └── career_agent.py
+│   └── career_agent.py
 │
 ├── templates/
-│ └── chat.html
+│   └── chat.html
 │
 └── static/
-├── style.css
-└── chat.js
+    ├── style.css
+    └── chat.js
+```
 
 ---
 
 ## ⚙️ Setup & Installation
 
-### 1️⃣ Clone the repository
-```bash
+### 1️⃣ Clone the Repository
+
 git clone https://github.com/DIXANTOFFICIAL1/AI-Career-Guidance-Copilot.git
 cd AI-Career-Guidance-Copilot
-
-2️⃣ Install dependencies
+2️⃣ Install Dependencies
 pip install -r requirements.txt
 3️⃣ Configure Environment Variables
 Create a .env file in the root directory:
 
 GOOGLE_API_KEY=your_google_gemini_api_key_here
-⚠️ Do NOT upload .env to GitHub.
+⚠️ Important: Do NOT upload .env to GitHub.
 
-▶️ Run the Application
+4️⃣ Run the Application
 python app.py
 Open your browser and visit:
 
 http://127.0.0.1:5000
-🧪 Example Prompts
+💬 Example Prompts
 “I am a 2nd year student confused between AI and web development”
 
-“I completed BCom and want to move into tech”
+“I completed BCom and want to move into tech roles”
 
 “I am working in IT support for 2 years and feel stuck”
 
-“What skills should I learn to become a data analyst?”
+“What skills should I learn to move into AI roles?”
 
-Each prompt generates different, context-aware responses.
+Each prompt generates different, personalized outputs based on user context.
 
-📈 Impact
-Helps users gain career clarity using AI
+🎯 Target Users
+Students exploring career options
 
-Reduces confusion in early career decision-making
+Career switchers moving into tech
 
-Encourages skill development and lifelong learning
+Working professionals seeking growth
 
-Makes career guidance accessible and scalable
+Early-stage job seekers and interns
 
-🔒 Disclaimer
-This project provides career awareness and guidance only.
-It does not guarantee job placement and should not be considered professional or legal advice.
+📈 Impact & Outcomes
+Improves career clarity through personalized guidance
 
-📜 License
-This project is intended for educational and internship purposes.
+Reduces confusion by offering actionable steps
 
-👤 Author
-Dixant Soni
-GitHub: https://github.com/DIXANTOFFICIAL1
+Scales career mentorship using AI
 
-📚 References
-Google Gemini Generative AI Documentation
+Aligns with SDG 4 (Quality Education) and SDG 8 (Decent Work)
 
-IBM SkillsBuild Learning Resources
+🔒 Ethical Considerations
+No medical or psychological advice provided
 
-Microsoft Copilot & AI Learning Modules
+Career guidance is informational, not deterministic
+
+User data is not stored permanently
+
+Encourages continuous learning and informed decisions
+
+🔗 References
+Google Generative AI Documentation
+
+Microsoft Copilot & AI Learning Resources
+
+IBM SkillsBuild Platform
+
+United Nations Sustainable Development Goals (SDGs)
 
 Flask Official Documentation
 
-United Nations Sustainable Development Goals (SDGs)
+Research articles on AI-based decision support systems
+
+👤 Author
+Dixant Soni
+AI & Software Development Enthusiast
+Intern – IBM SkillsBuild | Microsoft Copilot | AICTE Programs
+
+📜 License
+This project is for educational and internship evaluation purposes.
+Feel free to fork and enhance responsibly.
 
