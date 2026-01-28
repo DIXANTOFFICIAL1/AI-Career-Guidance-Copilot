@@ -115,6 +115,6 @@ This project is intended for educational and internship purposes.
 
 ## 👤 Author
 
--Dixant Soni
--AI & Software Development Enthusiast
--GitHub: https://github.com/DIXANTOFFICIAL1
+- Dixant Soni
+- AI & Software Development Enthusiast
+- GitHub: https://github.com/DIXANTOFFICIAL1
