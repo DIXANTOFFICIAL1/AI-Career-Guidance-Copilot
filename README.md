@@ -59,7 +59,7 @@ AI-Career-Guidance-Copilot/
 ## ⚙️ Setup & Installation
 
 ### 1️⃣ Clone the Repository
-
+```bash
 git clone https://github.com/DIXANTOFFICIAL1/AI-Career-Guidance-Copilot.git
 cd AI-Career-Guidance-Copilot
 
@@ -78,44 +78,43 @@ GOOGLE_API_KEY=your_google_gemini_api_key_here
 python app.py
 Open your browser and visit:
 http://127.0.0.1:5000
+```
+## 💬 Example Prompts
 
-💬 Example Prompts
+- “I am a 2nd year student confused between AI and web development”
+- “I completed BCom and want to move into tech roles”
+- “I am working in IT support for 2 years and feel stuck”
+- “What skills should I learn to move into AI roles?”
+- Each prompt generates different, personalized outputs based on user context.
 
-“I am a 2nd year student confused between AI and web development”
-“I completed BCom and want to move into tech roles”
-“I am working in IT support for 2 years and feel stuck”
-“What skills should I learn to move into AI roles?”
-Each prompt generates different, personalized outputs based on user context.
+## 🎯 Target Users
 
-🎯 Target Users
+- Students exploring career options
+- Career switchers moving into tech
+- Working professionals seeking growth
+- Early-stage job seekers and interns
 
-Students exploring career options
-Career switchers moving into tech
-Working professionals seeking growth
-Early-stage job seekers and interns
+## 📈 Impact
 
-📈 Impact & Outcomes
+- Helps users gain career clarity using AI
+- Reduces confusion in early career decision-making
+- Encourages skill development and lifelong learning
+- Makes career guidance accessible and scalable
 
-Improves career clarity through personalized guidance
-Reduces confusion by offering actionable steps
-Scales career mentorship using AI
-Aligns with SDG 4 (Quality Education) and SDG 8 (Decent Work)
+## 🔗 References
 
-🔗 References
+- Google Generative AI Documentation
+- Microsoft Copilot & AI Learning Resources
+- United Nations Sustainable Development Goals (SDGs)
+- Flask Official Documentation
+- Research articles on AI-based decision support systems
 
-Google Generative AI Documentation
-Microsoft Copilot & AI Learning Resources
-IBM SkillsBuild Platform
-United Nations Sustainable Development Goals (SDGs)
-Flask Official Documentation
-Research articles on AI-based decision support systems
+## 📜 License
 
-👤 Author
-Dixant Soni
-AI & Software Development Enthusiast
+This project is intended for educational and internship purposes.
 
+## 👤 Author
 
-📜 License
-This project is for educational and internship evaluation purposes.
-Feel free to fork and enhance responsibly.
-
+-Dixant Soni
+-AI & Software Development Enthusiast
+-GitHub: https://github.com/DIXANTOFFICIAL1
