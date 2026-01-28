@@ -2,8 +2,6 @@
 
 An AI-powered career guidance web application that provides **personalized, context-aware career advice** based on user input. The system behaves like a conversational AI (similar to ChatGPT / Google Gemini) and helps students, career switchers, and working professionals make informed career decisions.
 
-This project is developed as part of **Microsoft Copilot Internship programs** and aligns with **UN Sustainable Development Goal (SDG 4: Quality Education)**.
-
 ---
 
 ## 🚀 Features
@@ -64,74 +62,58 @@ AI-Career-Guidance-Copilot/
 
 git clone https://github.com/DIXANTOFFICIAL1/AI-Career-Guidance-Copilot.git
 cd AI-Career-Guidance-Copilot
-2️⃣ Install Dependencies
-pip install -r requirements.txt
-3️⃣ Configure Environment Variables
-Create a .env file in the root directory:
 
+2️⃣ Install Dependencies
+
+pip install -r requirements.txt
+
+3️⃣ Configure Environment Variables
+
+Create a .env file in the root directory:
 GOOGLE_API_KEY=your_google_gemini_api_key_here
 ⚠️ Important: Do NOT upload .env to GitHub.
 
 4️⃣ Run the Application
+
 python app.py
 Open your browser and visit:
-
 http://127.0.0.1:5000
+
 💬 Example Prompts
+
 “I am a 2nd year student confused between AI and web development”
-
 “I completed BCom and want to move into tech roles”
-
 “I am working in IT support for 2 years and feel stuck”
-
 “What skills should I learn to move into AI roles?”
-
 Each prompt generates different, personalized outputs based on user context.
 
 🎯 Target Users
+
 Students exploring career options
-
 Career switchers moving into tech
-
 Working professionals seeking growth
-
 Early-stage job seekers and interns
 
 📈 Impact & Outcomes
+
 Improves career clarity through personalized guidance
-
 Reduces confusion by offering actionable steps
-
 Scales career mentorship using AI
-
 Aligns with SDG 4 (Quality Education) and SDG 8 (Decent Work)
 
-🔒 Ethical Considerations
-No medical or psychological advice provided
-
-Career guidance is informational, not deterministic
-
-User data is not stored permanently
-
-Encourages continuous learning and informed decisions
-
 🔗 References
+
 Google Generative AI Documentation
-
 Microsoft Copilot & AI Learning Resources
-
 IBM SkillsBuild Platform
-
 United Nations Sustainable Development Goals (SDGs)
-
 Flask Official Documentation
-
 Research articles on AI-based decision support systems
 
 👤 Author
 Dixant Soni
 AI & Software Development Enthusiast
-Intern – IBM SkillsBuild | Microsoft Copilot | AICTE Programs
+
 
 📜 License
 This project is for educational and internship evaluation purposes.
