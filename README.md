@@ -22,7 +22,7 @@ An AI-powered career guidance web application that provides **personalized, cont
 - **Google Gemini Generative AI API**
 - **HTML, CSS, JavaScript**
 - **dotenv for environment variables**
-
+  
 ---
 
 ## 🌍 SDG Alignment
