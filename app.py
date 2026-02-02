@@ -7,8 +7,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return render_template("chat.html")
-
-
+    
 @app.route("/chat", methods=["POST"])
 def chat():
     user_message = request.json.get("message")
@@ -49,6 +48,7 @@ def chat():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
 
