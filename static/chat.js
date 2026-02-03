@@ -20,6 +20,7 @@ async function sendMessage() {
 function addMessage(text, sender) {
     const box = document.getElementById("chat-box");
     const div = document.createElement("div");
+    
     div.className = sender === "user" ? "user-msg" : "ai-msg";
     div.innerText = text;
     box.appendChild(div);
