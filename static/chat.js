@@ -18,7 +18,6 @@ async function sendMessage() {
     addMessage(data.reply, "ai");
 }
 
-
 function addMessage(text, sender) {
     const box = document.getElementById("chat-box");
     const div = document.createElement("div");
