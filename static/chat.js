@@ -14,6 +14,7 @@ async function sendMessage() {
         body: JSON.stringify({ message: text })
     });
 
+    
     const data = await res.json();
     addMessage(data.reply, "ai");
 }
