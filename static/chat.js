@@ -4,7 +4,6 @@ async function sendMessage() {
 
     if (!text) return;
 
-    
     addMessage(text, "user");
     input.value = "";
 
